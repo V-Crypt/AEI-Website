@@ -58,9 +58,9 @@ Para poner en marcha una copia local, siga esta sencilla guía.
 ### Ejecución
 
 - Ejecuta el código con el siguiente comando: 
-  ```
-    npm start
-  ```
+   ```
+   npm start
+   ```
 
 <!-- EJEMPLOS DE USOS -->
 
