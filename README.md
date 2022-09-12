@@ -58,15 +58,9 @@ Para poner en marcha una copia local, siga esta sencilla guía.
 ### Ejecución
 
 - Ejecuta el código con el siguiente comando: 
-<<<<<<< HEAD:README.md
   ```
   npm start
   ```
-=======
-   ```
-   npm start
-   ```
->>>>>>> e0c95a914a60d1d27d604a5811cfc119784902c8:asocescoltasinterco-website/README.md
 
 <!-- EJEMPLOS DE USOS -->
 
