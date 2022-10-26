@@ -1,0 +1,13 @@
+.contenedor img {
+  width: 100%;
+  height: auto;
+  margin: -2.5vH auto;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+}
