@@ -1,15 +1,311 @@
-.contenedor img {
+.portada {
   width: 100%;
   height: auto;
-  margin: -2.5vH auto;
+  display: inline-block;
+  background-image: url('../img/portadaIni.jpeg');
+  background-size: cover;
 }
 
-.contenedor {
-  width: 90%;
-  max-width: 100%;
+.portada h1 {
+  font-size: 6em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 2% 19.5% auto;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  width: 62%;
+}
+
+.portada img {
+  width: 25%;
+  height: auto;
+  margin: 3% 0 2% 38%;
+}
+
+#titulo {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bienvenida {
+  overflow: scroll;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 0 10%;
+}
+
+.bienvenida h1 {
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bienvenida hr {
+  height: 8em; 
+}
+
+.bienvenida p {
+  width: 50%;
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.frase {
+  overflow: scroll;
+  clear: both;
+  background-color: gray;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frase p {
+  font-size: 2.4em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.qSomos {
+  overflow: scroll;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 0 10%;
+}
+
+.qSomos h1 {
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.qSomos hr {
+  height: 8em; 
+}
+
+.qSomos p {
+  width: 50%;
+  text-align: justify;
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.directora {
+  overflow: scroll;
+  clear: both;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 0 10%;
+  background-image: url('../img/directora.jpg');
+  background-size: cover;
+}
+
+#nombre {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#nombre h1 {
+  font-size: 2.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#descripcion {
+  border-radius: 50em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#descripcion p {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 39.4%;
+  height: auto;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 1em;
+}
+
+.misvisval {
+  width: 75%; /*...*/
+  max-width: 95%;
   margin: 0 auto;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 2%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.misvisval h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.misvisval p {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mision {
+  grid-column-start: 1;
+}
+
+#linea1 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  width: 8em;
+  margin: 0 auto;
+}
+
+#linea2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  transform: rotate(90deg);
+  width: 8em; 
+  margin: 0 auto;
+}
+
+#valores {
+  grid-column-start: 3;
+  grid-row: span 3;
+}
+
+#vision {
+  grid-row-start: 3;
+}
+
+#vIco {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 15%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+#vIco img {
+  margin-left: 4%;
+}
+
+#vIco h2 {
+  margin-top: 3.6em;
+  margin-left: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sabiduria {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+#respeto {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+#honor {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#lealtad {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#solidaridad {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.contenedor .item {
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorcontactos {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.TenlaConfianza {
+  background-color: blueviolet;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  /* fixed text fon with wondows size */
+  font-size: 1.8vW;
+}
+
+.lineacontacto {
+  background-color: blueviolet;
+  grid-column-start: 3;
+}
+
+.contactanos {
+  background-color: blueviolet;
+  grid-column-start: 3;
+  /* Fix text in center */
+  display: flex;
+  justify-content: center;
+  /* Fix the font in 15 */
+  font-size: 2.5vW;
+}
+
+.contactoCorreo {
+  border-radius: 15px;
+  background-color: gray;
+  grid-column-start: 1;
+  display: flex;
+  font-size: 1.5vW;
+  grid-column-start: 1;
+}
+
+.contactoFacebook {
+  border-radius: 15px;
+  background-color: gray;
+  grid-column-start: 1;
+  display: flex;
+  font-size: 1.5vW;
+  grid-column-start: 2;
+}
+
+.contactoWhatsapp {
+  border-radius: 15px;
+  background-color: gray;
+  grid-column-start: 1;
+  display: flex;
+  font-size: 1.5vW;
+  grid-column-start: 3;
+}
+
+.contactoLinkedIn {
+  border-radius: 15px;
+  background-color: gray;
+  grid-column-start: 1;
+  display: flex;
+  font-size: 1.5vW;
+  grid-column-start: 4;
+}
+
+.contactoInstagram {
+  border-radius: 15px;
+  background-color: gray;
+  grid-column-start: 1;
+  display: flex;
+  font-size: 1.5vW;
+  grid-column-start: 5;
 }
 
 .contenedor .item {
