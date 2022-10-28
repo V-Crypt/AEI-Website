@@ -308,9 +308,12 @@
   grid-column-start: 5;
 }
 
-.contenedor .item {
-  width: 100%;
-  height: 100%;
+.contenedor {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .contenedorcontactos {
@@ -323,7 +326,7 @@
 }
 
 .TenlaConfianza {
-  background-color: blueviolet;
+  background-color: violet;
   grid-column-start: 2;
   grid-column-end: 5;
   /* fixed text fon with wondows size */
