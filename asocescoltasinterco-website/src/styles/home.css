@@ -237,29 +237,33 @@
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .TenlaConfianza {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   grid-column-start: 2;
   grid-column-end: 5;
-  /* fixed text fon with wondows size */
+  /* fixed text font a llitle bit higher*/
+  margin-top: -1.5em;
   font-size: 1.8vW;
+
 }
 
 .lineacontacto {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   grid-column-start: 3;
 }
 
 .contactanos {
-  background-color: blueviolet;
+  margin-top: 1.5em;
+  /* background-color: blueviolet; */
   grid-column-start: 3;
   /* Fix text in center */
   display: flex;
   justify-content: center;
-  /* Fix the font in 15 */
+  /* Fix the font in center vertically */
+  align-items: center;
   font-size: 2.5vW;
 }
 
@@ -267,128 +271,73 @@
   border-radius: 15px;
   background-color: gray;
   grid-column-start: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 1;
-}
-
-.contactoFacebook {
-  border-radius: 15px;
-  background-color: gray;
-  grid-column-start: 1;
-  display: flex;
-  font-size: 1.5vW;
-  grid-column-start: 2;
-}
-
-.contactoWhatsapp {
-  border-radius: 15px;
-  background-color: gray;
-  grid-column-start: 1;
-  display: flex;
-  font-size: 1.5vW;
-  grid-column-start: 3;
-}
-
-.contactoLinkedIn {
-  border-radius: 15px;
-  background-color: gray;
-  grid-column-start: 1;
-  display: flex;
-  font-size: 1.5vW;
-  grid-column-start: 4;
-}
-
-.contactoInstagram {
-  border-radius: 15px;
-  background-color: gray;
-  grid-column-start: 1;
-  display: flex;
-  font-size: 1.5vW;
-  grid-column-start: 5;
-}
-
-.contenedor {
-  width: 90%;
-  max-width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 20px;
-}
-
-.contenedorcontactos {
-  width: 90%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
-
-.TenlaConfianza {
-  background-color: violet;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  /* fixed text fon with wondows size */
-  font-size: 1.8vW;
-}
-
-.lineacontacto {
-  background-color: blueviolet;
-  grid-column-start: 3;
-}
-
-.contactanos {
-  background-color: blueviolet;
-  grid-column-start: 3;
-  /* Fix text in center */
   display: flex;
   justify-content: center;
-  /* Fix the font in 15 */
-  font-size: 2.5vW;
 }
-
-.contactoCorreo {
+.contactoCorreo2 {
   border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   background-color: gray;
   grid-column-start: 1;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 1;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .contactoFacebook {
   border-radius: 15px;
   background-color: gray;
-  grid-column-start: 1;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: flex;
+  justify-content: center;
 }
 
 .contactoWhatsapp {
   border-radius: 15px;
   background-color: gray;
-  grid-column-start: 1;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: flex;
+  justify-content: center;
 }
 
 .contactoLinkedIn {
   border-radius: 15px;
   background-color: gray;
-  grid-column-start: 1;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: flex;
+  justify-content: center;
 }
 
 .contactoInstagram {
   border-radius: 15px;
   background-color: gray;
-  grid-column-start: 1;
   display: flex;
   font-size: 1.5vW;
   grid-column-start: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: flex;
+  justify-content: center;
 }
