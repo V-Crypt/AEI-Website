@@ -2,7 +2,7 @@
 .topNav {
   overflow: hidden;
   background-color: #030300;
-  height: 5rem;
+  height: 5em;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -19,21 +19,21 @@
 
 img {
   float: left;
-  margin-left: 3rem;
-  height: 4.8rem;
+  margin-left: 3em;
+  height: 4.8em;
 }
 
 .topNav Button {
   float: right;
-  margin-right: 4rem;
-  margin-top: 1rem;
+  margin-right: 4em;
+  margin-top: 1em;
   position: relative;
   display: block;
   border-radius: 5px;
   border: 1px;
   text-align: center;
   font-weight: bolder;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   max-width: 320px;
   height: 5vH;
   overflow: hidden;
@@ -44,11 +44,12 @@ img {
   text-decoration: none;
   transition: all ease 0.8s;
   background: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
   .topNav Button:after,
   .topNav Button:before {
-      width: 1rem;
+      width: 1em;
       height: 200px;
       content: '';
       display: block;
