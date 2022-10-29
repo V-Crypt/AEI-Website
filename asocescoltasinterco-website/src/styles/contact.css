@@ -1,0 +1,56 @@
+.primerDiv {
+  background-color: gray;
+  width: 100%;
+  height: auto;
+}
+
+.contactanos {
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.contactanos h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactanos p {
+  text-align: center;
+  font-size: 44%;
+}
+
+.lineacontacto hr {
+  width: 50%;
+  margin: 10% auto;
+}
+
+.info {
+  width: 90%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, auto);
+}
+
+#contactoCorreo {
+  grid-column-start: 1;
+}
+
+#contactoFacebook {
+  grid-column-start: 2;
+}
+
+#contactoWhatsapp {
+  grid-column-start: 3;
+}
+
+#contactoLinkedIn {
+  grid-column-start: 4;
+}
+
+#contactoInstagram {
+  grid-column-start: 5;
+}
