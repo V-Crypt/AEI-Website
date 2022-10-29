@@ -12,7 +12,7 @@ export default class home extends Component {
     return (
       <div className='home'>
         <div className='portada'>
-          <div id='titulo'>
+          <div id='titulo'> {/**Hacer responsivo el texto*/}
             <h1>Asociación de Escoltas Intercontinentales</h1>
           </div>
           <div>
@@ -73,7 +73,7 @@ export default class home extends Component {
               diversos ámbitos.
             </p>
           </main>
-          <aside id='valores'>
+          <aside id='valores'> {/**Hacer responsivo o mejorar el grid*/}
             <h1>Valores Fundamentales<br />de la Asociación</h1>
             <div id='vIco'>
               <div id='sabiduria'>

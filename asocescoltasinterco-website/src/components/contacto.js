@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar.js';
 import Contact from './contact.js';
+import Footer from './footer.js';
 import { Grid } from 'semantic-ui-react';
 
 export default function contacto() {
@@ -12,6 +13,9 @@ export default function contacto() {
                 </Grid.Row>
                 <Grid.Row>
                     <Contact />
+                </Grid.Row>
+                <Grid.Row>
+                    <Footer />
                 </Grid.Row>
             </Grid>
         </div>
