@@ -1,11 +1,9 @@
-/* Add a black background color to the top navigation bar */
 .topNav {
   overflow: hidden;
   background-color: #030300;
   height: 5em;
 }
 
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topNav a {
       float: none;

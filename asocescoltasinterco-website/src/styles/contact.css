@@ -1,56 +1,84 @@
-.primerDiv {
-  background-color: gray;
-  width: 100%;
-  height: auto;
-}
-
-.contactanos {
+.infoDes {
   background-color: gray;
   width: 100%;
   height: auto;
   display: inline-block;
+  margin-bottom: 1.05%;
 }
 
-.contactanos h1 {
+.infoDes h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.contactanos p {
   text-align: center;
-  font-size: 44%;
+  font-size: 3.5em;
 }
 
-.lineacontacto hr {
-  width: 50%;
-  margin: 10% auto;
+.infoDes hr {
+  width: 22%;
+  margin: 0 auto;
+  color: darkred
 }
 
-.info {
+.infoDes p {
+  text-align: center;
+  font-size: 1.2em;
+  width: 35%;
+  margin: 2% auto 8% auto;
+  color: whitesmoke
+}
+
+.infoRed {
   width: 90%;
   max-width: 95%;
-  margin: 0 auto;
+  margin: -5% auto 0 auto;
   display: grid;
   grid-gap: 2%;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, auto);
 }
 
-#contactoCorreo {
+.infoRed h2 {
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.infoRed p {
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.infoRed img {
+  margin: 0 37% auto;
+  padding: 0 0 8% 0;
+}
+
+#correo {
+  height: auto;
+  background-color: rgba(138, 38, 38, 0.9);
   grid-column-start: 1;
 }
 
-#contactoFacebook {
+#facebook {
+  height: auto;
+  background-color: rgba(63, 56, 231, 0.9);
   grid-column-start: 2;
 }
 
-#contactoWhatsapp {
+#whatsapp {
+  height: auto;
+  background-color: rgba(116, 168, 30, 0.8);
   grid-column-start: 3;
 }
 
-#contactoLinkedIn {
+#linkedIn {
+  height: auto;
+  background-color: rgba(30, 36, 134, 0.8);
   grid-column-start: 4;
 }
 
-#contactoInstagram {
+#instagram {
+  height: auto;
+  background-color: rgba(176, 29, 75, 0.8);
   grid-column-start: 5;
 }

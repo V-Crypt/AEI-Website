@@ -10,7 +10,7 @@ export default class footer extends Component {
         <div id='logo'>
           <img alt='escudo' src={image} />
         </div>
-        <div id='menu'> {/*Arreglar bug en donde al sobrepasar los botones del footer, en el menú ocurre una animación*/}
+        <div id='menu'>
           <a href="/">
             <Button content="Inicio" />
           </a>

@@ -96,11 +96,3 @@
           background: gray;
           transition: all ease 0.5s;
       }
-
-      #menu Button:hover:after {
-          right: 130%;
-      }
-
-      #menu Button:hover:before {
-          left: 130%;
-      }
