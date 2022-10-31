@@ -15,7 +15,7 @@ export default class contact extends Component {
           <hr />
           <p>
             Ten la confianza de contactarnos mediante cualquiera de los medios
-            presentados a continuación, para tratar el tema en el cual estás
+            presentados a continuación para tratar el tema en el cual estás
             interesado, responderemos lo más pronto posible.
           </p>
         </div>

@@ -15,15 +15,16 @@
 .infoDes hr {
   width: 22%;
   margin: 0 auto;
-  color: darkred
+  color: darkred;
 }
 
 .infoDes p {
   text-align: center;
   font-size: 1.2em;
-  width: 35%;
-  margin: 2% auto 8% auto;
-  color: whitesmoke
+  width: 32%;
+  margin: 2% auto 7.45% auto;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .infoRed {
@@ -55,30 +56,30 @@
 
 #correo {
   height: auto;
-  background-color: rgba(138, 38, 38, 0.9);
+  background-color: rgba(138, 38, 38, 0.92);
   grid-column-start: 1;
 }
 
 #facebook {
   height: auto;
-  background-color: rgba(63, 56, 231, 0.9);
+  background-color: rgba(63, 56, 231, 0.92);
   grid-column-start: 2;
 }
 
 #whatsapp {
   height: auto;
-  background-color: rgba(116, 168, 30, 0.8);
+  background-color: rgba(116, 168, 30, 0.92);
   grid-column-start: 3;
 }
 
 #linkedIn {
   height: auto;
-  background-color: rgba(30, 36, 134, 0.8);
+  background-color: rgba(30, 36, 134, 0.92);
   grid-column-start: 4;
 }
 
 #instagram {
   height: auto;
-  background-color: rgba(176, 29, 75, 0.8);
+  background-color: rgba(176, 29, 75, 0.92);
   grid-column-start: 5;
 }
