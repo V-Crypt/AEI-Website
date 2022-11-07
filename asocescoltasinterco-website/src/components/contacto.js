@@ -6,7 +6,7 @@ import { Grid } from 'semantic-ui-react';
 
 export default function contacto() {
     return (
-        <div className='inicio'>
+        <div className='contacto'>
             <Grid padded>
                 <Grid.Row>
                     <Navbar />

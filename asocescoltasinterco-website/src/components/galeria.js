@@ -6,7 +6,7 @@ import { Grid } from 'semantic-ui-react';
 
 export default function Galeria() {
     return (
-        <div className='inicio'>
+        <div className='galeria'>
             <Grid padded>
                 <Grid.Row>
                     <Navbar />
