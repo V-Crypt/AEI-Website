@@ -69,7 +69,7 @@
 #whatsapp {
   height: auto;
   background-color: rgba(116, 168, 30, 0.92);
-  grid-column-start: 3;
+  grid-column-start: 5;
 }
 
 #linkedIn {
@@ -81,5 +81,5 @@
 #instagram {
   height: auto;
   background-color: rgba(176, 29, 75, 0.92);
-  grid-column-start: 5;
+  grid-column-start: 3;
 }

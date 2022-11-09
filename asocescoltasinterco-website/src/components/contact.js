@@ -36,12 +36,14 @@ export default class contact extends Component {
             <img alt='facebook' src={facebook} />
             </a>
           </div>
-          <div id="whatsapp">
-            <h2>WhatsApp</h2>
+          <div id="instagram">
+            <h2>Instagram</h2>
             <p>
-              +52 1 33 3468 6232
+              asoc_escoltasinterco
             </p>
-            <img alt='whatsapp' src={whatsapp} />
+            <a href="https://www.instagram.com/asoc_escoltasinterco/">
+            <img alt='instagram' src={instagram} />
+            </a>
           </div>
           <div id="linkedIn">
             <h2>LinkedIn</h2>
@@ -52,14 +54,12 @@ export default class contact extends Component {
             <img alt='linkedin' src={linkedin} />
             </a>
           </div>
-          <div id="instagram">
-            <h2>Instagram</h2>
+          <div id="whatsapp">
+            <h2>WhatsApp</h2>
             <p>
-              asoc_escoltasinterco
+              +52 1 33 3468 6232
             </p>
-            <a href="https://www.instagram.com/asoc_escoltasinterco/">
-            <img alt='instagram' src={instagram} />
-            </a>
+            <img alt='whatsapp' src={whatsapp} />
           </div>
         </div>
       </div>
