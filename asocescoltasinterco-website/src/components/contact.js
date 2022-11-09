@@ -32,7 +32,9 @@ export default class contact extends Component {
             <p>
               Asociación de<br />Escoltas Intercontinentales
             </p>
+          <a href="https://www.facebook.com/groups/3154592981440628/">
             <img alt='facebook' src={facebook} />
+            </a>
           </div>
           <div id="whatsapp">
             <h2>WhatsApp</h2>
@@ -46,14 +48,18 @@ export default class contact extends Component {
             <p>
               Asociación de<br />Escoltas Intercontinentales
             </p>
+          <a href="https://www.linkedin.com/company/asociaci%C3%B3n-de-escoltas-intercontinentales/">
             <img alt='linkedin' src={linkedin} />
+            </a>
           </div>
           <div id="instagram">
             <h2>Instagram</h2>
             <p>
               asoc_escoltasinterco
             </p>
+            <a href="https://www.instagram.com/asoc_escoltasinterco/">
             <img alt='instagram' src={instagram} />
+            </a>
           </div>
         </div>
       </div>
