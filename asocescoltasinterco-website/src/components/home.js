@@ -8,7 +8,7 @@ import respeto from '../img/respeto.png';
 import '../styles/home.css';
 import { Header, Image, Container, Grid } from 'semantic-ui-react';
 import ReactPlayer from 'react-player';
-import IntroAEI from '../mp4/Intro_AEI.mp4';
+import IntroAEI from '../mp4/Intro_AsocEscoltasInterco.mp4';
 
 export default class home extends Component {
     render() {
