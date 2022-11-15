@@ -1,0 +1,57 @@
+#entrenamientosButton {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background: black;
+}
+
+    #entrenamientosButton:after,
+    #entrenamientosButton:before {
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: rgba(0,0,0,0.5);
+        transform: rotate(45deg);
+        position: absolute;
+        right: 50%;
+    }
+
+    #entrenamientosButton:before {
+        left: 50%;
+    }
+
+    #entrenamientosButton:hover {
+        background: black;
+    }
+
+        #entrenamientosButton:hover:after,
+        #entrenamientosButton:hover:before {
+            transition: all ease 0.5s;
+        }
+
+        #entrenamientosButton:hover:after {
+            right: 130%;
+        }
+
+        #entrenamientosButton:hover:before {
+            left: 130%;
+        }
+
+.fotosEntrenamientos {
+    position: relative;
+}
+
+    .fotosEntrenamientos .slick-prev,
+    .fotosEntrenamientos .slick-next {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+    }
+
+    .fotosEntrenamientos .slick-prev {
+        left: 5%;
+    }
+
+    .fotosEntrenamientos .slick-next {
+        right: 5%;
+    }
