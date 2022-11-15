@@ -41,7 +41,7 @@ const Galery = () => {
 
                     </Modal.Header>
                     <Modal.Content id='modalContentKIT' image>
-        
+
                     </Modal.Content>
                 </Modal>
             </div>
@@ -56,10 +56,10 @@ const Galery = () => {
                     </Button>}
                 >
                     <Modal.Header id='modalHeaderESC'>
-                    
+
                     </Modal.Header>
                     <Modal.Content id='modalContentESC' image>
-                       
+
                     </Modal.Content>
                 </Modal>
             </div>

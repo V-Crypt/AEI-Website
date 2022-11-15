@@ -1,98 +1,51 @@
 .footer {
-  width: 100%;
-  height: auto;
-  background-color: black;
-  display: inline-block;
-  margin-top: 2.5%;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+#logo {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
 }
 
 #logo img {
-  width: 1.5%;
-  height: auto;
-  margin: 1% 48.5% auto;
+    width: 7%;
+    height: auto;
+}
+
+#volverArriba {
+    padding-bottom: 1em;
+    width: 6%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+#volverArriba {
+    padding-bottom: 1em;
+    width: 7%;
+    margin: 0 auto;
 }
 
 #hr1 {
-  transform: rotate(90deg);
-  width: 2em; 
-  margin: 4.5% 42.3% auto;
-}
-
-#hr2 {
-  transform: rotate(90deg);
-  width: 3em; 
-  margin: -1.6% 0 0 48.5%;
-}
-
-#hr3 {
-  transform: rotate(90deg);
-  width: 2em; 
-  margin: -1.6% 55.7% auto;
-}
-
-#hr4 {
-  width: 40em; 
-  margin: 2.5% auto;
+    width: 40em;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin: 0 auto;
 }
 
 #copyright {
-  width: 100%;
-  font-size: 0.9em;
-  color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
-  margin: -2% 36% auto;
+    padding-bottom: 1em;
+    width: 100%;
+    font-size: 0.9em;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 4;
 }
-
-#menu {
-  margin: 4.5% 0 0 36.5%;
-}
-
-#menu Button {
-  float: left;
-  margin: 0 2.5% 0 2%;
-  border-radius: 5px;
-  border: 1px;
-  text-align: center;
-  font-weight: bolder;
-  font-size: 0.9em;
-  height: auto;
-  color: gray;
-  cursor: pointer;
-  letter-spacing: 1px;
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
-  text-decoration: none;
-  transition: all ease 0.8s;
-  background: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
-  #menu Button:after,
-  #menu Button:before {
-      width: 1em;
-      height: 200px;
-      content: '';
-      display: block;
-      background: rgba(255,255,255,0);
-      transform: rotate(45deg);
-      top: -80px;
-      position: absolute;
-      transition: none;
-      right: -45%;
-      cursor: pointer;
-  }
-
-  #menu Button:before {
-      left: -48%;
-  }
-
-  #menu Button:hover {
-      background: white;
-      color: black;
-  }
-
-    #menu Button:hover:after,
-    #menu Button:hover:before {
-          transform: rotate(45deg), scaleX(130%);
-          background: gray;
-          transition: all ease 0.5s;
-      }

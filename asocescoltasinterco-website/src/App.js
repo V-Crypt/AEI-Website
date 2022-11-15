@@ -5,6 +5,7 @@ import Inicio from './components/inicio.js'
 import Galeria from './components/galeria.js'
 import Tienda from './components/tienda.js'
 import Contacto from './components/contacto.js'
+import 'semantic-ui-css/semantic.min.css';
 
 function App() {
   return (

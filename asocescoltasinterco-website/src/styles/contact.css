@@ -1,85 +1,86 @@
-.infoDes {
-  background-color: gray;
-  width: 100%;
-  height: auto;
-  display: inline-block;
-  margin-bottom: 1.05%;
+.infoDescripcion {
+    padding-top: 2em;
+    background-color: dimgray;
+    width: 100%;
+    height: auto;
 }
 
-.infoDes h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 3.5em;
+    .infoDescripcion h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .infoDescripcion hr {
+        margin: 2em auto;
+        width: 15%;
+        color: white;
+    }
+
+    .infoDescripcion p {
+        text-align: center;
+        margin: 2em auto;
+        padding-bottom: 4.75em;
+        font-size: 1.5em;
+        width: 34%;
+        color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+.infoRedesSociales {
+    width: 90%;
+    height: auto;
+    margin: -2% auto;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
 }
 
-.infoDes hr {
-  width: 23%;
-  margin: 0 auto;
-  color: darkred;
-}
+    .infoRedesSociales h2 {
+        padding-top: 1em;
+        font-size: 2em;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
 
-.infoDes p {
-  text-align: center;
-  font-size: 1.2em;
-  width: 32%;
-  margin: 2% auto 7.45% auto;
-  color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
-}
+    .infoRedesSociales p {
+        font-size: 1.2em;
+        padding-top: 1em;
+        color: whitesmoke;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
 
-.infoRed {
-  width: 90%;
-  max-width: 95%;
-  margin: -5% auto 0 auto;
-  display: grid;
-  grid-gap: 2%;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, auto);
-}
-
-.infoRed h2 {
-  color:black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-}
-
-.infoRed p {
-  color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-}
-
-.infoRed img {
-  margin: 0 37% auto;
-  padding: 0 0 8% 0;
-}
+    .infoRedesSociales img {
+        padding-top: 1em;
+        width: 29%;
+        height: auto;
+        margin: 0 auto 1em 0;
+    }
 
 #correo {
-  height: auto;
   background-color: rgba(138, 38, 38, 0.92);
   grid-column-start: 1;
 }
 
 #facebook {
-  height: auto;
   background-color: rgba(63, 56, 231, 0.92);
   grid-column-start: 2;
 }
 
 #whatsapp {
-  height: auto;
   background-color: rgba(116, 168, 30, 0.92);
   grid-column-start: 5;
 }
 
 #linkedIn {
-  height: auto;
   background-color: rgba(30, 36, 134, 0.92);
   grid-column-start: 4;
 }
 
 #instagram {
-  height: auto;
   background-color: rgba(176, 29, 75, 0.92);
   grid-column-start: 3;
 }

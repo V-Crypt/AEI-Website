@@ -55,6 +55,20 @@ Para poner en marcha una copia local, siga esta sencilla guía.
    npm install
    ```
 
+3. Asegurate de instalar también las dependencias de "Semantic UI React", "ReactPlayer" y "ReactSlick", pues también se usaron para el desarrollo del sitio web, con los siguientes comandos:
+   ```
+   npm install --save semantic-ui-react
+   npm install --save semantic-ui-css
+   ```
+   ```
+   npm install react-player --save
+   ```
+   ```
+   npm install react-slick --save
+   npm install slick-carousel --save
+   ```
+   
+
 ### Ejecución
 
 - Ejecuta el código con el siguiente comando: 

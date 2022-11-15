@@ -1,26 +1,42 @@
 import React, { Component } from 'react';
 import image from '../img/AEI_logo.png';
 import '../styles/navbar.css';
-import { Button } from 'semantic-ui-react';
+import { Button, Icon } from 'semantic-ui-react';
 
 export default class navbar extends Component {
-  render() {
-    return (
-      <div className="topNav">
-        <img alt='logo' src={image} />
-        <a href="/contacto">
-          <Button content="Contacto" />
-        </a>
-        <a href="/tienda">
-          <Button content="Tienda" />
-        </a>
-        <a href="/galeria">
-          <Button content="Galeria" />
-        </a>
-        <a href="/"> {/*Nota: Cuando se clickeen que permanezcan active*/}
-          <Button content="Inicio" />
-        </a>
-      </div>
-    );
-  }
+    state = {}
+    handleClick = () =>
+        this.setState((prevState) => ({ active: !prevState.active }))
+    render() {
+        const { active } = this.state
+        return (
+            <div className="topNav">
+                <img alt='logo' src={image} />
+                <a href="/contacto">
+                    <Button animated basic inverted fluid>
+                        <Button.Content visible>Contacto</Button.Content>
+                        <Button.Content hidden><Icon name='phone' /></Button.Content>
+                    </Button>
+                </a>
+                <a href="/tienda">
+                    <Button animated basic inverted fluid>
+                        <Button.Content visible>Tienda</Button.Content>
+                        <Button.Content hidden><Icon name='shop' /></Button.Content>
+                    </Button>
+                </a>
+                <a href="/galeria">
+                    <Button animated basic inverted fluid>
+                        <Button.Content visible>Galeria</Button.Content>
+                        <Button.Content hidden><Icon name='photo' /></Button.Content>
+                    </Button>
+                </a>
+                <a href="/">
+                    <Button toggle active={active} onClick={this.handleClick} animated basic inverted fluid>
+                        <Button.Content hidden>Inicio</Button.Content>
+                        <Button.Content visible><Icon name='home' /></Button.Content>
+                    </Button>
+                </a>
+            </div>
+        );
+    }
 }
