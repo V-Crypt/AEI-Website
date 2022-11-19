@@ -1,0 +1,248 @@
+#titulos {
+    background-color: darkslategrey;
+}
+
+.shop h1 {
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0 0.5em 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kitTienda {
+    padding: 2em 0 1em 0;
+    width: 29%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+    .kitTienda img {
+        width: 70%;
+        grid-column-start: 1;
+        grid-row: span 2;
+        margin: 0 auto;
+    }
+
+    .kitTienda h2 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .kitTienda a {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .kitTienda p {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .kitTienda span {
+        font-size: small;
+        text-align: center;
+    }
+
+.librosTienda {
+    padding: 2em 0 1em 0;
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+.libroAIALS {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+    .libroAIALS img {
+        width: 70%;
+        grid-column-start: 1;
+        grid-row: span 2;
+        margin: 0 auto;
+    }
+
+    .libroAIALS h2 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .libroAIALS a {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .libroAIALS p {
+        margin-top: 1em;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .libroAIALS span {
+        font-size: small;
+        text-align: center;
+    }
+
+.libroEGVDUE {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+    .libroEGVDUE img {
+        width: 78%;
+        grid-column-start: 1;
+        grid-row: span 2;
+        margin: 0 auto;
+        height: 18em;
+    }
+
+    .libroEGVDUE h2 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .libroEGVDUE a {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .libroEGVDUE p {
+        margin-top: 1em;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .libroEGVDUE span {
+        font-size: small;
+        text-align: center;
+    }
+
+.libroSDLO {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+    .libroSDLO img {
+        width: 71%;
+        grid-column-start: 1;
+        grid-row: span 2;
+        margin: 0 auto;
+    }
+
+    .libroSDLO h2 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .libroSDLO a {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .libroSDLO p {
+        margin-top: 1em;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .libroSDLO span {
+        font-size: small;
+        text-align: center;
+    }
+
+.serviciosTienda {
+    padding: 2em 0 0 0;
+    width: 30%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+    .serviciosTienda img {
+        width: 80%;
+        grid-column-start: 1;
+        grid-row: span 2;
+        margin: 0 auto;
+    }
+
+    .serviciosTienda a {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin: 0 auto;
+    }
+
+    .serviciosTienda p {
+        margin-top: 1em;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        font-size: 1.1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+.notaServicios {
+    border: dashed;
+    float: right;
+    width: 15%;
+    margin: 0 3em 2em 0;
+}
+
+    .notaServicios h3 {
+        text-align: center;
+    }
+
+    .notaServicios p {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifArial, Helvetica, sans-serif;
+        font-size: 1em;
+    }

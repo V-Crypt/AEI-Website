@@ -2,7 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\asocescoltasinterco-website",
-    "\\asocescoltasinterco-website\\src"
+    "\\asocescoltasinterco-website\\public",
+    "\\asocescoltasinterco-website\\public\\img",
+    "\\asocescoltasinterco-website\\src",
+    "\\asocescoltasinterco-website\\src\\components",
+    "\\asocescoltasinterco-website\\src\\styles"
   ],
+  "SelectedNode": "\\asocescoltasinterco-website\\src\\components\\home.js",
   "PreviewInSolutionExplorer": false
 }

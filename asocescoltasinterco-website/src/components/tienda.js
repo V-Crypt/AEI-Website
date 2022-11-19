@@ -10,5 +10,5 @@ export default function Tienda() {
             <Shop />
             <Footer />
         </div>
-    )
+    );
 }
