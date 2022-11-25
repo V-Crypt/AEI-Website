@@ -1,6 +1,6 @@
 .infoDescripcion {
     padding-top: 2em;
-    background-color: dimgray;
+    background-color: darkslategrey;
     width: 100%;
     height: auto;
 }
@@ -9,12 +9,13 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
         font-size: 4em;
+        color: white;
     }
 
     .infoDescripcion hr {
         margin: 2em auto;
         width: 15%;
-        color: white;
+        color: black;
     }
 
     .infoDescripcion p {

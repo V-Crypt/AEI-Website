@@ -14,10 +14,10 @@
 
     .topNav Button {
         height: 4.4vH;
-        letter-spacing: 1.5px;
+        letter-spacing: 1px;
     }
 
     .topNav a {
         float: right;
-        margin: 1% 5% 0 -4.6%;
+        margin: 1% 5% 0 -5%;
     }

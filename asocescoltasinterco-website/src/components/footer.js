@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import escudo from '../img/shield.png';
+import escudo from '../img/escudo.png';
 import '../styles/footer.css';
 import { Button, Icon, Image } from 'semantic-ui-react';
 

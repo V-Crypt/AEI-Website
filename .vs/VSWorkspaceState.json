@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\asocescoltasinterco-website",
-    "\\asocescoltasinterco-website\\public",
-    "\\asocescoltasinterco-website\\public\\img",
-    "\\asocescoltasinterco-website\\src",
-    "\\asocescoltasinterco-website\\src\\components",
-    "\\asocescoltasinterco-website\\src\\styles"
+    "\\asocescoltasinterco-website\\src"
   ],
-  "SelectedNode": "\\asocescoltasinterco-website\\src\\components\\home.js",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
