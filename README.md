@@ -11,7 +11,7 @@
 <h3 align="center">Asociación de Escoltas Intercontinentales</h3>
 
   <p align="center">
-    Página web para difusión y ventas en línea desarrollada con React.js
+    Página web para difusión y ventas en línea desarrollada con ReactJS
     <br />
     <a href="https://github.com/V-Crypt/AEI-Website.git">
     <br />
@@ -27,7 +27,7 @@ Sitio web de la "Asociación de Escoltas Intercontinentales" para hacer de su pr
 
 ### Tecnologías implementadas
 
-- [React.js](https://reactjs.org)
+- [ReactJS](https://reactjs.org)
 - [Semantic UI React](https://react.semantic-ui.com)
 - [PayPal API](https://developer.paypal.com)
 - [NodeJS](https://nodejs.org)
