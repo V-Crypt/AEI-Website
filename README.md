@@ -126,13 +126,19 @@ Para poner en marcha una copia local, siga esta sencilla guía.
 ## Contacto
 
 **Líder del Proyecto:** 
-  - Jesús Monterrubio  
+  - Jesús Monterrubio.
 
-**Correo:** 
+**Medios de Contacto:** 
   - js_monterrubio.ec@outlook.com
-
-**Otro medio de contacto:**
   - [LinkedIn](https://www.linkedin.com/in/jesus-monterrubio)
+  
+**Miembros del Equipo:** 
+  - Fátima Delenne.
+  - Erick López.
+
+**Medios de Contacto:** 
+  - a01635041@tec.mx
+  - a01114283@tec.mx
 
 <p align="right">
   (<a href="#top">Regresar arriba</a>)
