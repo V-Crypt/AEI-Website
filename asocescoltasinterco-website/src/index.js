@@ -1,3 +1,7 @@
+/**
+ * index.js tiene la estructura de todo el sistema.
+ * */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

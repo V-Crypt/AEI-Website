@@ -1,3 +1,7 @@
+/**
+ * galery.js tiene todo el contenido de la sección "Galeria".
+ * */
+
 import React, { Component } from 'react';
 import '../styles/galery.css';
 import Entrenamientos from './modalEntrenamientos.js';

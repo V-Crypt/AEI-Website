@@ -1,3 +1,7 @@
+/**
+ * contacto.js tiene la estructura de la sección "Contacto".
+ * */
+
 import React from "react";
 import Navbar from "./navbar.js";
 import Contact from "./contact.js";

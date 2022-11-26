@@ -1,3 +1,7 @@
+/**
+ * inicio.js tiene toda la estructura de la sección "Inicio".
+ * */
+
 import React from 'react';
 import Navbar from './navbar.js';
 import Home from './home.js';

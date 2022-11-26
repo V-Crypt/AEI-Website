@@ -1,3 +1,7 @@
+/**
+ * galeria.js tiene la estructura de la sección "Galeria".
+ * */
+
 import React from 'react';
 import Navbar from './navbar.js';
 import Galery from './galery.js';

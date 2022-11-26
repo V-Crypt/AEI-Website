@@ -1,3 +1,7 @@
+/**
+ * modalEntrenamientos.js tiene todo el contenido de la ventana modal de los entrenamientos de la sección "Galeria".
+ * */
+
 import React from 'react';
 import { Button, Modal } from 'semantic-ui-react';
 import '../styles/modalEntrenamientos.css';

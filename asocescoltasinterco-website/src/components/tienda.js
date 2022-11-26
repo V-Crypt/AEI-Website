@@ -1,3 +1,7 @@
+/**
+ * tienda.js tiene toda la estructura de la sección "Tienda".
+ * */
+
 import React from 'react';
 import Navbar from './navbar.js';
 import Shop from './shop.js';

@@ -1,3 +1,7 @@
+/**
+ * footer.js tiene todo el contenido del pie de página.
+ * */
+
 import React, { useState } from 'react';
 import escudo from '../img/escudo.png';
 import '../styles/footer.css';

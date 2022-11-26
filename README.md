@@ -11,7 +11,7 @@
 <h3 align="center">Asociación de Escoltas Intercontinentales</h3>
 
   <p align="center">
-    Página web informativa y de ventas online desarrollada con React.js
+    Página web para difusión y ventas en línea desarrollada con React.js
     <br />
     <a href="https://github.com/V-Crypt/AEI-Website.git">
     <br />
@@ -23,15 +23,15 @@
 
 ## Sobre el proyecto
 
-<p align="center">
-  <img src="./asocescoltasinterco-website/src/img/...">
-</p>
-Página web de la Asociación de Escoltas Intercontinentales para hacer de su presencia en el mundo digital, así como para vender sus productos y servicios de seguridad de manera online.
+Sitio web de la "Asociación de Escoltas Intercontinentales" para hacer de su presencia en el mundo digital, así como para vender sus productos y servicios de seguridad en línea.
 
 ### Tecnologías implementadas
 
-- [React.js](https://reactjs.org/)
+- [React.js](https://reactjs.org)
 - [Semantic UI React](https://react.semantic-ui.com)
+- [PayPal API](https://developer.paypal.com)
+- [NodeJS](https://nodejs.org)
+- [npm](https://www.npmjs.com)
 
 <!-- EMPECEMOS -->
 
@@ -41,7 +41,7 @@ Para poner en marcha una copia local, siga esta sencilla guía.
 
 ### Pre-requisitos
 
-- [Node.js](https://nodejs.org/en/)
+- [NodeJS](https://nodejs.org)
 
 ### Instalación
 
@@ -55,7 +55,7 @@ Para poner en marcha una copia local, siga esta sencilla guía.
    npm install
    ```
 
-3. Asegurate de instalar también las dependencias de "Semantic UI React", "ReactPlayer" y "ReactSlick", pues también se usaron para el desarrollo del sitio web, con los siguientes comandos:
+3. Asegurate de instalar también las dependencias de "Semantic UI React", "React Player", "React Slick" y "React PayPal", pues también se usaron para el desarrollo del sitio web, con los siguientes comandos:
    ```
    npm install --save semantic-ui-react
    npm install --save semantic-ui-css
@@ -67,11 +67,18 @@ Para poner en marcha una copia local, siga esta sencilla guía.
    npm install react-slick --save
    npm install slick-carousel --save
    ```
-   
+   ```
+   npm install @paypal/react-paypal-js
+   ```
 
 ### Ejecución
 
-- Ejecuta el código con el siguiente comando: 
+- Accede de primera instancia a la carpeta ejecutable con el siguiente comando: 
+  ```
+  cd asocescoltasinterco-website
+  ```
+
+- Ejecuta el programa con el siguiente comando: 
   ```
   npm start
   ```
@@ -80,10 +87,40 @@ Para poner en marcha una copia local, siga esta sencilla guía.
 
 ## Usabilidad
 
-### ...
+### Menú
 
 <p align="center">
-  <img src="./asocescoltasinterco-website/src/img/...">
+  <img src="./asocescoltasinterco-website/public/img/menu.gif">
+</p>
+
+### Footer
+
+<p align="center">
+  <img src="./asocescoltasinterco-website/public/img/footer.gif">
+</p>
+
+### Inicio
+
+<p align="center">
+  <img src="./asocescoltasinterco-website/public/img/inicio.gif">
+</p>
+
+### Galeria
+
+<p align="center">
+  <img src="./asocescoltasinterco-website/public/img/galeria.gif">
+</p>
+
+### Tienda
+
+<p align="center">
+  <img src="./asocescoltasinterco-website/public/img/tienda.gif">
+</p>
+
+### Contacto
+
+<p align="center">
+  <img src="./asocescoltasinterco-website/public/img/contacto.gif">
 </p>
 
 ## Contacto

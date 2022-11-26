@@ -1,3 +1,7 @@
+/**
+ * modalKit.js tiene todo el contenido de la ventana modal del kit de la sección "Galeria".
+ * */
+
 import React from 'react';
 import { Button, Modal } from 'semantic-ui-react';
 import '../styles/modalKit.css';

@@ -1,3 +1,7 @@
+/**
+ * home.js tiene todo el contenido de la sección "Inicio".
+ * */
+
 import React, { Component } from 'react';
 import logo from '../img/AEI_logo.png';
 import lealtad from '../img/lealtad.png';

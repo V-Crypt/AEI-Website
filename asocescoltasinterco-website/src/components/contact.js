@@ -1,3 +1,7 @@
+/**
+ * contact.js tiene todo el contenido de la sección "Contacto".
+ * */
+
 import React, { Component } from "react";
 import { Image } from 'semantic-ui-react';
 import "../styles/contact.css";

@@ -1,3 +1,7 @@
+/**
+ * shop.css tiene los estilos del archivo "shop.js".
+ * */
+
 #titulos {
     background-color: darkslategrey;
 }
@@ -90,12 +94,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .libroAIALS a {
-        grid-column-start: 2;
-        grid-row-start: 2;
-        margin: 0 auto;
-    }
-
     .libroAIALS p {
         margin-top: 1em;
         grid-column-start: 2;
@@ -109,6 +107,12 @@
         font-size: small;
         text-align: center;
     }
+
+#paypalAIALSButton {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0 auto;
+}
 
 .libroEGVDUE {
     grid-column-start: 2;
@@ -135,12 +139,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .libroEGVDUE a {
-        grid-column-start: 2;
-        grid-row-start: 2;
-        margin: 0 auto;
-    }
-
     .libroEGVDUE p {
         margin-top: 1em;
         grid-column-start: 2;
@@ -154,6 +152,12 @@
         font-size: small;
         text-align: center;
     }
+
+#paypalEGVDUEButton {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0 auto;
+}
 
 .libroSDLO {
     grid-column-start: 3;
@@ -179,12 +183,6 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .libroSDLO a {
-        grid-column-start: 2;
-        grid-row-start: 2;
-        margin: 0 auto;
-    }
-
     .libroSDLO p {
         margin-top: 1em;
         grid-column-start: 2;
@@ -198,6 +196,12 @@
         font-size: small;
         text-align: center;
     }
+
+#paypalSDLOButton {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0 auto;
+}
 
 .serviciosTienda {
     padding: 2em 0 0 0;

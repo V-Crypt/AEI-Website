@@ -1,3 +1,7 @@
+/**
+ * App.js tiene el contenido y la estructura de todo el sistema.
+ * */
+
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -10,7 +14,7 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
 export default function App() {
     return (
-        <PayPalScriptProvider options={{ 'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID }}>
+        <PayPalScriptProvider options={{ 'client-id': process.env.REACT_APP_PAYPAL_CLIENT_ID, 'currency': 'MXN' }}>
             <div className="App">
                 <BrowserRouter>
                     <Routes>
